@@ -1,1 +1,1 @@
-Group Activity #7 on INTPROG
+Group Activity #6 on INTPROG
