@@ -1,0 +1,15 @@
+CREATE DATABASE coffee;
+
+USE coffee;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    phone VARCHAR(15) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO users (id, name, username, password, phone)
+VALUES (1, 'moldez', 'waffles', 'meow1234', 9472958487);
